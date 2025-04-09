@@ -1,0 +1,63 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Generated directories
+pdfs/
+vectorstore/
+metadata/
+cache/
+logs/
+conversations/
+__pycache__/
+.pytest_cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Database files
+*.faiss
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# Python compiled files
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+.coverage
+htmlcov/
